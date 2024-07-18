@@ -1,5 +1,7 @@
 using CatalogService as service from '../../srv/Catalogservice';
 
+
+
 annotate service.POs with @(
     Common.DefaultValuesFunction : 'getOrderDefaults',
     UI.SelectionFields:[
